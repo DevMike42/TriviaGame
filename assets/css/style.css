@@ -11,9 +11,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
-    height: 500px;
+    width: 55%;
+    height: 450px;
     margin: 50px auto auto 30px;
+    background-color: black;
     border-radius: 20px;
     opacity: .9;
     color: white;
@@ -22,25 +23,32 @@ body {
 
 .flex-container h1 {
     font-size: 40px;
+    margin: 20px auto;
 }
 
-.flex-container img {
-    width: 500px;
-    border-radius: 20px;
-    opacity: .9;
+.flex-container #quizArea {
+    position: relative;
+    width: 100%;
 }
 
-.flex-container #timer {
-    font-size: 30px;
+button {
+    display:block;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 40px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin: auto;
 }
 
-.flex-container #question {
-    font-size: 25px;
-    line-height: 1.5;
-    text-align: center;
-    margin: 10px 20px;
+#start{
+    margin-top: 10%;
+    border:2px solid blue;
+    background:lightgrey;
 }
 
-.flex-container .choices {
-    font-size: 27px;
-}
+button:hover {
+    border:2px solid blue;
+    background: pink;
+  }
